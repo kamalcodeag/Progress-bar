@@ -1,0 +1,24 @@
+body {
+  background-image: radial-gradient(circle, #f5e58a #424141); }
+
+.s-row {
+  height: 13vh; }
+  .s-row .s-progress {
+    width: 1000px;
+    height: 5vh;
+    border: 1px solid #0a0a0a;
+    border-radius: 20px; }
+    .s-row .s-progress .s-inner {
+      width: 0;
+      height: 5vh;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      background-color: red;
+      border-radius: 20px; }
+    .s-row .s-progress .s-cancel {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=style.css.map */

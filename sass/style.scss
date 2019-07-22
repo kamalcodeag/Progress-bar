@@ -1,0 +1,32 @@
+
+body
+{
+    background-image: radial-gradient(circle,rgb(245, 229, 138)rgb(66, 65, 65));
+}.s-row
+{
+    height: 13vh;
+    .s-progress
+    {
+        width: 1000px;
+        height: 5vh;
+        border: 1px solid rgb(10, 10, 10);
+        border-radius: 20px;
+        .s-inner
+        {
+            width: 0;
+            height: 5vh;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            background-color: red;
+            border-radius: 20px;
+
+        }
+        .s-cancel
+        {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
